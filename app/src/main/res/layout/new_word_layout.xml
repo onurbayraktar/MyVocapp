@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="240dp"
+              android:layout_gravity="center"
+              android:background="@drawable/card_shape">
+
+    <TextView
+        android:id="@+id/tv_add_word_header"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:textSize="30sp"
+        android:textColor="@color/colorText"
+        android:text="@string/add_new_word"/>
+
+    <EditText
+        android:id="@+id/nw_word_text"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/textview_shape_3"
+        android:gravity="center"
+        android:hint="@string/edit_text_word"/>
+
+    <EditText
+        android:id="@+id/nw_translation_text"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:background="@drawable/textview_shape_3"
+        android:gravity="center"
+        android:hint="@string/edit_text_translation"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"/>
+
+    <ImageView
+        android:id="@+id/confirm_button_new_word"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/confirm_icon"/>
+
+</LinearLayout>
