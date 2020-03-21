@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="200dp"
+              android:layout_gravity="center"
+              android:background="@drawable/card_shape">
+
+    <TextView
+        android:id="@+id/tv_create_list_header"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/colorText"
+        android:text="@string/create_new_list"/>
+
+    <EditText
+        android:id="@+id/nw_list_name"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:background="@drawable/textview_shape_3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:gravity="center"
+        android:hint="@string/prompt_list_name"/>
+
+    <ImageView
+        android:id="@+id/confirm_button_word_list"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/confirm_icon"/>
+
+</LinearLayout>

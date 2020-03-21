@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Vocapp</string>
+    <string name="username">your username</string>
+    <string name="saved_username">Saved Username</string>
+    <string name="warning_username_empty">please enter a username..</string>
+    <string name="warning_listname_empty">Please Enter Name of the List</string>
+    <string name="start_practice">start  \n your practice !</string>
+
+    <string name="create_list">create a list</string>
+    <string name="edit_list">edit your list</string>
+    <string name="make_practice">make practice</string>
+    <string name="statistics">your vocap statistics</string>
+    <string name="your_lists">your lists</string>
+    <string name="your_words">your words</string>
+    <string name="empty_words">seems quiet in here...</string>
+    <string name="add_list">add a list</string>
+    <string name="add_word">add a word</string>
+    <string name="add_new_word">add new word !</string>
+    <string name="edit_text_word">Your Word...</string>
+    <string name="edit_text_translation">Translation...</string>
+    <string name="word_hint_error">You need to enter a word !</string>
+    <string name="translation_hint_error">You need to enter a translation !</string>
+
+
+    <string name="create_new_list">create new list !</string>
+    <string name="prompt_list_name">Name of The List..</string>
+
+
+    <string name="preference_file_key">SharedPrefKey</string>
+
+</resources>
